@@ -1,0 +1,18 @@
+extends common/layout
+
+block layout-content
+    h1 Welcome to School Events
+    p Stay updated with the latest events happening at our school.
+
+    h2 Upcoming Events
+    ul
+        if events.length
+        each event in events
+            li #{event.name}
+    h2 Latest Educational News
+    ul
+      if news.length
+        each article in news
+          li: a(href=article.url) #{article.title}
+      else
+        li No news available

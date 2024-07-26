@@ -1,0 +1,16 @@
+extends common/layout
+
+block layout-content
+    h1 Sync Events with Holidays
+    button(onclick="window.location.href='/sync/import'") Import Holidays
+
+    if events
+      h2 Imported Holidays
+      ul(class='holidays')
+        if events.length
+          each event in events
+            li
+                span.event-name #{event.name}
+                span.event-date #{event.date.iso}
+        else
+          li No holidays found

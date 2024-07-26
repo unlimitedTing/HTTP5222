@@ -1,0 +1,20 @@
+extends common/layout
+
+block layout-content
+  body
+    h1 Manage School Events
+    form(action="/events/add" method="POST")
+      input(type="text" name="title" placeholder="Event Title" required)
+      input(type="date" name="date" required)
+      textarea(name="description" placeholder="Event Description")
+      button(type="submit") Add Event
+    ul
+      each event in events
+        li
+          | #{event.name} - #{event.date.toDateString()}
+          div.button-group
+            form(action="/events/delete" method="POST")
+              input(type="hidden" name="id" value=event._id)
+              button(type="submit" class="event-button") Delete
+            form(action=`/events/update/${event._id}` method="GET")
+              button(type="submit" class="event-button") Edit

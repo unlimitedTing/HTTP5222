@@ -1,0 +1,20 @@
+extends common/layout
+
+block layout-content 
+  .main-content 
+    h1.page-title Update Event
+    form(action=`/update/${event._id}` method="POST")
+      div
+        label(for="name") Event Name:
+        input(type="text" name="name" value=event.name required)
+      div
+        label(for="date") Event Date:
+        input(type="date" name="date" value=event.date.toISOString().split('T')[0] required)
+      div
+        label(for="type") Event Type:
+        input(type="text" name="type" value=event.type required)
+      div
+        label(for="description") Event Description:
+        textarea(name="description" required)= event.description
+      div
+        button(type="submit") Update Event

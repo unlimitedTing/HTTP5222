@@ -1,0 +1,15 @@
+extends layout
+
+block main-content
+  h1 Top 15 Most Watched Shows
+  table(border="1")
+    tr
+      th Show Title
+      th Year
+    each m in shows
+      tr
+        if m.show.ids.imdb
+          td: a(href=`https://imdb.com/title/${m.show.ids.imdb}`) #{m.show.title}
+        else
+          td #{m.show.title}
+        td #{m.show.year}
