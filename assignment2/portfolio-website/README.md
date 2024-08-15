@@ -2,6 +2,8 @@
 
 This is a personal portfolio website built with **React** to showcase my projects, skills, and experience as a web developer. The website is fully responsive and optimized for deployment using Vercel with a custom domain.
 
+The delopyed website url is [https://http-5222.vercel.app/](https://http-5222.vercel.app/)
+
 ## Table of Contents
 
 - [Overview](#overview)
