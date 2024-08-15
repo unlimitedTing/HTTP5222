@@ -1,16 +1,4 @@
-.project, .skill {
-    border: 1px solid #ccc;
-    padding: 16px;
-    margin: 8px;
-    text-align: center;
-  }
-  
-  .project img, .skill img {
-    width: 100px;
-    height: 100px;
-  }
-
-  body {
+body {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
