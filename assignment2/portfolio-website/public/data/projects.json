@@ -1,0 +1,44 @@
+[
+  {
+    "project_name": "Portfolio Website",
+    "project_thumbnail": "/images/portfolio.png",
+    "project_url": "https://github.com/unlimitedTing/http5121/tree/main/assign3",
+    "project_description": "A website showcasing my work and skills.",
+    "project_languages": "HTML, CSS, React"
+  },
+  {
+    "project_name": "E-commerce Store",
+    "project_thumbnail": "/images/ecommerce.png",
+    "project_url": "https://pptjewerly.com/",
+    "project_description": "An online store built with the MERN stack.",
+    "project_languages": "MongoDB, Express, React, Node.js"
+  },
+  {
+    "project_name": "Vendor Management System",
+    "project_thumbnail": "/images/vendor-management.png",
+    "project_url": "https://vendormanagement.com",
+    "project_description": "A comprehensive vendor management system built using Node.js and MongoDB, designed to help manage vendor data, event schedules, and payments.",
+    "project_languages": "Node.js, MongoDB"
+  },
+  {
+    "project_name": "NBA Player Website",
+    "project_thumbnail": "/images/nba-player.png",
+    "project_url": "http://nbadata.kesug.com/",
+    "project_description": "A dynamic website showcasing NBA player stats and profiles. Built using PHP and Laravel.",
+    "project_languages": "PHP, Laravel"
+  },
+  {
+    "project_name": "Event Management Website",
+    "project_thumbnail": "/images/SchoolEventManagement.png",
+    "project_url": "https://eventmanager.com",
+    "project_description": "An event management system to organize and track events, participants, and schedules, built with C# and SQL.",
+    "project_languages": "C#, SQL"
+  },
+  {
+    "project_name": "Angry Dog Animation",
+    "project_thumbnail": "/images/angry-dog.png",
+    "project_url": "https://angrydoganimation.com",
+    "project_description": "A fun interactive website featuring an angry dog animation that responds to user interaction. Built using HTML and JavaScript.",
+    "project_languages": "HTML, JavaScript"
+  }
+]
